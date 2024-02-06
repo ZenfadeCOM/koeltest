@@ -37,6 +37,7 @@
   ExpiresByType audio/ogg "access plus 1 year"
   ExpiresByType audio/aac "access plus 1 year"
   ExpiresByType audio/m4a "access plus 1 year"
+  ExpiresByType audio/wav "access plus 1 year"
 
   ExpiresByType image/gif "access plus 1 month"
   ExpiresByType image/jpeg "access plus 1 month"
