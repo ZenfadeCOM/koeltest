@@ -1,0 +1,30 @@
+{
+  "id": "dev.koel.cloudronapp",
+  "title": "Koel",
+  "author": "Koel Authors",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Personal Music Streaming Server",
+  "version": "1.13.1",
+  "upstreamVersion": "6.12.1",
+  "healthCheckPath": "/",
+  "httpPort": 8000,
+  "addons": {
+    "localstorage": {},
+    "mysql": {},
+    "sendmail": { "supportsDisplayName": true }
+  },
+  "manifestVersion": 2,
+  "website": "https://koel.dev/",
+  "contactEmail": "support@cloudron.io",
+  "icon": "file://logo.png",
+  "mediaLinks": [
+    "https://screenshots.cloudron.io/dev.koel.cloudronapp/showcase.png",
+    "https://screenshots.cloudron.io/dev.koel.cloudronapp/settings.png"
+  ],
+  "tags": [ "music", "subsonic", "spotify", "last.fm", "media" ],
+  "changelog": "file://CHANGELOG.md",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "documentationUrl": "https://docs.cloudron.io/apps/koel/",
+  "minBoxVersion": "7.3.0",
+  "forumUrl": "https://forum.cloudron.io/category/109/koel"
+}
